@@ -1,9 +1,12 @@
 :root {
-  --color-primary: #006cbb;
+  --color-primary: #ffaa00;       /* Яркий жёлтый (акцент) */
+  --color-primary-light: #ffcc33; /* Светлый жёлтый */
+  --color-primary-dark: #cc8800;  /* Тёмно-жёлтый / янтарный */
 
   --color-white: #fff;
-  --color-gray: #dfdfdf;
-  --color-black: #000;
+  --color-gray: #f0f0f0;          /* Светло-серый фон */
+  --color-bg-light: #fdfdfd;      /* Очень светлый фон */
+  --color-black: #222;            /* Почти чёрный для текста (лучше читается) */
 
   --color-success: #01bd78;
   --color-error: #d40019;
@@ -14,7 +17,7 @@
 
   &::selection {
     color: var(--color-white);
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-dark);
   }
 }
 
@@ -37,6 +40,8 @@ body {
   margin: 0;
   font-size: 1rem;
   line-height: 1.5;
+  background-color: var(--color-bg-light);
+  color: var(--color-black);
 }
 
 a {
@@ -51,6 +56,7 @@ h2 {
   margin-bottom: 24px;
   font-weight: 700;
   line-height: 1.2;
+  color: var(--color-primary-dark);
 }
 
 p {
