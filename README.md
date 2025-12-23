@@ -16,4 +16,5 @@ npm install
 
 Внутри VS code установить 4 плагина: eslint, stylelint, prettier, vue official
 
-Помощь: qwen 3 coder
+Помощь: qwen 3 cod
+сделал Исмаилов Евгений 
